@@ -7,4 +7,4 @@ output "users_endpoint" {
   description = "API Gateway url to access users"
   value       = "${aws_apigatewayv2_api.http_api.api_endpoint}/users"
 }
-
+outputs
